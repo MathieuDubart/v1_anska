@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti&family=Red+Hat+Text:wght@300;400;600;700&display=swap');
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.anska {
+    scroll-behavior: smooth;
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+.anska a, .anska a:visited, .anska a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.anska .container-fluid {
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.anska p,
+.anska .row {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+    scroll-behavior: smooth;
+}
+
+.hide-scrollbar{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+.custom-slide  {
+    height:100vh;
+    width:100vw;
+    position:relative;
+}
+
+.custom-wrapper {
+    display:flex;
+    width:1900vw;
+    transform:rotate(90deg) translateY(-100vh);
+    transform-origin:top left;
+    background-color:#000;
+
+}
+
+.custom-container{
+    height:100vw;
+    width:100vh;
+    transform:rotate(-90deg) translateX(-100vh);
+    transform-origin:top left;
+    position:absolute;
+    overflow-x:hidden;
+    overflow-y:scroll;
+}
+
+.custom-layer {
+    position:absolute;
+    top:0;
+    left:0;
+    height: 100vh;
+    width: 100vw;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.anska h1 {
+    font-family: 'Kaisei Opti', serif;
+}
+
+.anska h2 {
+    font-size: 3em;
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 700;
+}
+
+.anska h3 {
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 700;
+}
+
+.anska h4 {
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.anska .custom-wrapper .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anska .hero-slide {
+    background-image: url('/img/hero/header_background.png');
+    background-size: cover;
+    background-position: center center;
+}
+.custom-navbar {
+    padding-top: 3em;
+}
+.anska .custom-layer {
+    position:absolute;
+    top:0;
+    left:10em;
+    height: 100vh;
+    width: 100vw;
+    background-position: bottom;
+}
+.anska .layer-1{
+    left:75vw;
+    z-index:1;
+    background-image: url('/img/hero/rock.png');
+    background-size: contain;
+    /*  -------------------------------  */
+    position:absolute;
+    top:0;
+    height: 100vh;
+    width: 100vw;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.anska .layer-2{
+    z-index:1;
+    background-image: url('/img/hero/rocks.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    /*  -------------------------------  */
+    position:absolute;
+    top:0;
+    left:10em;
+    height: 100vh;
+    width: 100vw;
+    background-position: bottom;
+}
+
+.anska .custom-wrapper .hero-slide .hero-sound-line i {
+    margin-right: 8px;
+}
+.anska .hero-introduction p,
+.anska .custom-wrapper .hero-slide .hero-sound-line {
+    font-weight: 600;
+}
+
+
+.anska .custom-wrapper .conclusion-slide .row .nav-arrow,
+.anska .custom-wrapper .hero-slide .row .nav-arrow {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -3em;
+    z-index:2;
+}
+
+.anska .custom-wrapper .hero-slide .nav-arrow p {
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+    text-align: end;
+    position: relative;
+    top: -6.1em;
+    left: 48px;
+}
+
+.anska .custom-wrapper .introduction .row {
+    display: flex;
+    align-items: center;
+    z-index:2;
+}
+
+
+.anska .custom-wrapper .custom-slide .title-row h2 {
+    font-size:15em;
+    text-transform: uppercase;
+}
+.anska .custom-wrapper .custom-slide .place-row h3 {
+    font-size:3em;
+    text-transform: uppercase;
+}
+
+.anska .custom-wrapper .hero-slide .row {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+.anska .custom-wrapper .hero-slide .row .hero-title h1 {
+    font-size: 10em;
+}
+
+.anska .custom-wrapper .custom-slide {
+    display: flex;
+    flex-direction: row;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center center;
+}
+
+.anska .custom-wrapper .custom-slide .place-row {
+    margin: 5em 0;
+    height: 8em;
+}
+
+.anska .custom-wrapper .custom-slide .place-row.mt-15 {
+    margin: 19em 0 -14em 0;
+}
+
+.anska .custom-wrapper .custom-slide .content-row {
+    display: flex;
+    height: fit-content;
+}
+.anska .custom-wrapper .custom-slide .row.title-row .day-row {
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+    text-align:center;
+}
+
+.anska .custom-wrapper .custom-slide .row.title-row .day-row .h2 {
+    width: 13em;
+}
+
+.anska .custom-wrapper .custom-slide .row.title-row .day-row{
+    width: 100%;
+}
+
+.anska .custom-wrapper .custom-slide .row .day-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.anska .custom-wrapper .custom-slide .row .block-left,
+.anska .custom-wrapper .custom-slide .row .block-right {
+    height: calc(100vh - 18em);
+}
+
+.anska .custom-wrapper .custom-slide .row .block-left {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+
+}
+.anska .custom-wrapper .custom-slide .row .block-right {
+    display:flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+}
+
+.anska .custom-wrapper .custom-slide .pages {
+    width: 800px;
+    position: relative;
+}
+
+.anska .custom-wrapper .custom-slide.day-two {
+    background-image: url('/img/day_two/background.png');
+}
+
+.anska .custom-wrapper .custom-slide.day-two .pages.day-two-page {
+    transform: rotateZ(15deg);
+    right:10em;
+    bottom: -20em;
+}
+
+
+.anska .custom-wrapper .custom-slide.day-two .block-left p.pages-p {
+    position: relative;
+    top: 20em;
+}
+.anska .custom-wrapper .custom-slide.day-three {
+    background-image: url('/img/day_three/background.png');
+}
+
+.anska .custom-wrapper .custom-slide.day-three-bis {
+    background-image: url('/img/day_three/background_bis.png');
+}
+
+.day-three-page {
+    bottom: -38em;
+}
+.anska .custom-wrapper .custom-slide.day-three-bis .block-left p.pages-p {
+    position: relative;
+    top: 40em;
+}
+
+.anska .custom-wrapper .custom-slide.day-three-bis .pages.day-three-page {
+    bottom: -38em;
+}
+
+.anska .custom-wrapper .custom-slide.day-four {
+    background-image: url('/img/day_four/background.png');
+}
+
+.anska .custom-wrapper .custom-slide.day-five {
+    background-image: url('/img/day_five/background.png');
+}
+
+.anska .custom-wrapper .custom-slide::before,
+.anska .custom-wrapper .custom-slide::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 10%;
+    height: 100%;
+    z-index: 100;
+}
+.anska .custom-wrapper .custom-slide::before {
+    left: -5px;
+}
+.anska .custom-wrapper .custom-slide.hero-slide::after,
+.anska .custom-wrapper .custom-slide.hero-slide::before {
+    background: linear-gradient(to right, transparent, transparent);
+
+}
+
+.anska .map-container {
+    padding: 5em;
+}
+
+.anska .map-container .temp-row {
+    height: 90%;
+    width: 100%;
+}
+.anska .map-container .range-row {
+    height: 10%;
+    width: 100%;
+}
+.anska .temp-map {
+    height: 100%;
+    width: 100%;
+}
+
+/*------------- RESPONSIVE -------------*/
+
+@media screen and (min-width: 1920px) {
+    .anska .custom-wrapper .custom-slide .row .block-left,
+    .anska .custom-wrapper .custom-slide .row .block-right {
+        max-width: 70%;
+        padding-left: 3em;
+        padding-right: 3em;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+
+    .anska .custom-wrapper .custom-slide .block-right,
+    .anska .custom-wrapper .custom-slide .block-left{
+        padding: 0 75px;
+    }
+    .anska .custom-wrapper .custom-slide .title-row h2 {
+        font-size:11em;
+    }
+    .anska .custom-wrapper .custom-slide .place-row.mt-15 {
+        margin: 15em 0 -10em 0;
+    }
+    .anska .custom-wrapper .custom-slide.day-two img {
+        width: 800px;
+        position: relative;
+        left: -265px;
+        bottom: -14em;
+    }
+    .anska .custom-wrapper .custom-slide.day-two .block-left p {
+        top: 14em;
+    }
+}
