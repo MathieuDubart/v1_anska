@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti&family=Red+Hat+Text:wght@300;400;600;700&display=swap');
 * {
     margin:0;
     padding:0;
     box-sizing:border-box;
 }
 
-.anska {
+.anska p, .anska p.pages-p{
     scroll-behavior: smooth;
-    font-family: 'Red Hat Text', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 .anska a, .anska a:visited, .anska a:hover {
@@ -77,17 +76,17 @@
 
 .anska h2 {
     font-size: 3em;
-    font-family: 'Red Hat Text', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
     font-weight: 700;
 }
 
 .anska h3 {
-    font-family: 'Red Hat Text', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
     font-weight: 700;
 }
 
 .anska h4 {
-    font-family: 'Red Hat Text', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
     font-size: 1.3em;
     font-weight: 600;
     margin-bottom: 0;
@@ -100,7 +99,7 @@
 }
 
 .anska .hero-slide {
-    background-image: url('/img/hero/header_background.png');
+    background-image: url('/img/hero/background.png');
     background-size: cover;
     background-position: center center;
 }
@@ -262,6 +261,10 @@
     position: relative;
 }
 
+.anska .custom-wrapper .custom-slide.day-one {
+    background-image: url('/img/day_one/background.png');
+}
+
 .anska .custom-wrapper .custom-slide.day-two {
     background-image: url('/img/day_two/background.png');
 }
@@ -290,39 +293,122 @@
 }
 .anska .custom-wrapper .custom-slide.day-three-bis .block-left p.pages-p {
     position: relative;
-    top: 40em;
+    top: 30em;
+}
+
+.anska .custom-wrapper .custom-slide.day-three-bis .block-right p.pages-p {
+    position: relative;
+    bottom: 8em;
 }
 
 .anska .custom-wrapper .custom-slide.day-three-bis .pages.day-three-page {
-    bottom: -38em;
+    bottom: -29em;
+    right: 10em;
+    transform: rotateZ(7deg);
+}
+
+.anska .custom-wrapper .custom-slide.day-three-bis .pages.day-three-page-bis {
+    top: -10em;
+    right: -8em;
+    transform: rotateZ(-7deg);
 }
 
 .anska .custom-wrapper .custom-slide.day-four {
     background-image: url('/img/day_four/background.png');
 }
 
+.anska .custom-wrapper .custom-slide.day-four .pages.day-four-page {
+    width: 100%;
+    transform: rotateZ(20deg);
+}
+
 .anska .custom-wrapper .custom-slide.day-five {
     background-image: url('/img/day_five/background.png');
 }
-
-.anska .custom-wrapper .custom-slide::before,
-.anska .custom-wrapper .custom-slide::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    width: 10%;
-    height: 100%;
-    z-index: 100;
+.anska .custom-wrapper .custom-slide.day-five .pages.day-five-page {
+    bottom: -12em;
+    left: 12em;
+    transform: rotateZ(7deg);
 }
-.anska .custom-wrapper .custom-slide::before {
-    left: -5px;
+.anska .custom-wrapper .custom-slide.day-five .block-right p.pages-p {
+    position: relative;
+    top: 14em;
 }
-.anska .custom-wrapper .custom-slide.hero-slide::after,
-.anska .custom-wrapper .custom-slide.hero-slide::before {
-    background: linear-gradient(to right, transparent, transparent);
-
+.anska .custom-wrapper .custom-slide.day-six {
+    background-image: url('/img/day_six/background.png');
 }
 
+.anska .custom-wrapper .custom-slide.day-six .block-right p.pages-p {
+    position: relative;
+    top: 8em;
+}
+
+.anska .custom-wrapper .custom-slide.day-seven {
+    background-image: url('/img/day_seven/background.png');
+}
+
+.anska .custom-wrapper .custom-slide.day-seven .pages.day-seven-page {
+    bottom: 24em;
+    right: -10em;
+    transform: rotateZ(-7deg);
+}
+.anska .custom-wrapper .custom-slide.day-seven .block-right p.pages-p {
+    position: relative;
+    bottom: 15em;
+}
+
+.anska .custom-wrapper .custom-slide.day-nine {
+    background-image: url('/img/day_nine/background.png');
+}
+
+.anska .custom-wrapper .custom-slide.day-nine-bis {
+    background-image: url('/img/day_nine/background_bis.png');
+}
+
+.anska .custom-wrapper .custom-slide.day-eleven {
+    background-image: url('/img/day_eleven/background.png');
+}
+.anska .custom-wrapper .custom-slide.day-eleven .pages.day-eleven-page {
+    bottom: -16em;
+    right: 13em;
+    transform: rotateZ(10deg);
+}
+.anska .custom-wrapper .custom-slide.day-eleven .block-left p.pages-p {
+    position: relative;
+    bottom: -10em;
+}
+.anska .custom-wrapper .custom-slide.day-fifteen{
+    background-image: url('/img/day_fifteen/background.png');
+}
+
+.anska .custom-wrapper .custom-slide.day-fifteen .pages.day-fifteen-page {
+    width: 120%;
+    top: -5em;
+    transform: rotateZ(-12deg);
+}
+
+.anska .custom-wrapper .custom-slide.day-fifteen .block-left p.pages-p {
+    position: relative;
+    top:-5em;
+}
+
+.anska .custom-wrapper .custom-slide.day-twentyone{
+    background-image: url('/img/day_twentyone/background.png');
+}
+
+.anska .custom-wrapper .custom-slide.day-twentytwo {
+    background-image: url('/img/day_twentytwo/background.png');
+}
+.anska .custom-wrapper .custom-slide.day-twentytwo-bis{
+    background-image: url('/img/day_twentytwo/background_bis.png');
+}
+
+.anska .custom-wrapper .conclusion-slide {
+    display: flex;
+    align-items: center;
+}
+
+.
 .anska .map-container {
     padding: 5em;
 }
@@ -342,7 +428,7 @@
 
 /*------------- RESPONSIVE -------------*/
 
-@media screen and (min-width: 1920px) {
+@media (min-width: 1920px) {
     .anska .custom-wrapper .custom-slide .row .block-left,
     .anska .custom-wrapper .custom-slide .row .block-right {
         max-width: 70%;
@@ -353,7 +439,7 @@
     }
 }
 
-@media screen and (max-width: 1440px) {
+@media (max-width: 1440px) {
 
     .anska .custom-wrapper .custom-slide .block-right,
     .anska .custom-wrapper .custom-slide .block-left{
@@ -365,13 +451,13 @@
     .anska .custom-wrapper .custom-slide .place-row.mt-15 {
         margin: 15em 0 -10em 0;
     }
-    .anska .custom-wrapper .custom-slide.day-two img {
+    .anska .custom-wrapper .custom-slide.day-two .pages.day-two-page {
         width: 800px;
         position: relative;
         left: -265px;
-        bottom: -14em;
+        bottom:-14em;
     }
-    .anska .custom-wrapper .custom-slide.day-two .block-left p {
+    .anska .custom-wrapper .custom-slide.day-two .block-left p.pages-p {
         top: 14em;
     }
 }
