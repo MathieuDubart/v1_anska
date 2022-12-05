@@ -23,7 +23,7 @@
 .anska .row {
     font-size: 16px;
     color: #fff;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .hide-scrollbar::-webkit-scrollbar {
@@ -43,7 +43,7 @@
 
 .custom-wrapper {
     display:flex;
-    width:1900vw;
+    width:2100vw;
     transform:rotate(90deg) translateY(-100vh);
     transform-origin:top left;
     background-color:#000;
@@ -257,34 +257,48 @@
 }
 
 .anska .custom-wrapper .custom-slide .pages {
-    width: 800px;
+    width: 500px;
     position: relative;
 }
 
 .anska .custom-wrapper .custom-slide.day-one {
+    z-index:22;
     background-image: url('/img/day_one/background.png');
 }
 
+.anska .custom-wrapper .custom-slide.day-one .block-right p {
+    position: relative;
+    top: 5em;
+}
+.anska .custom-wrapper .custom-slide.day-one .block-left p {
+    position: relative;
+    top: -5em;
+}
+
+
 .anska .custom-wrapper .custom-slide.day-two {
+    z-index:21;
     background-image: url('/img/day_two/background.png');
 }
 
 .anska .custom-wrapper .custom-slide.day-two .pages.day-two-page {
-    transform: rotateZ(15deg);
-    right:10em;
-    bottom: -20em;
+    right:5em;
+    bottom: -9em;
+    transform: rotateZ(10deg);
 }
 
 
 .anska .custom-wrapper .custom-slide.day-two .block-left p.pages-p {
     position: relative;
-    top: 20em;
+    top: 5em;
 }
 .anska .custom-wrapper .custom-slide.day-three {
+    z-index:20;
     background-image: url('/img/day_three/background.png');
 }
 
 .anska .custom-wrapper .custom-slide.day-three-bis {
+    z-index:19;
     background-image: url('/img/day_three/background_bis.png');
 }
 
@@ -293,27 +307,26 @@
 }
 .anska .custom-wrapper .custom-slide.day-three-bis .block-left p.pages-p {
     position: relative;
-    top: 30em;
+    top: 25em;
 }
 
 .anska .custom-wrapper .custom-slide.day-three-bis .block-right p.pages-p {
     position: relative;
-    bottom: 8em;
+    bottom: 5em;
 }
 
 .anska .custom-wrapper .custom-slide.day-three-bis .pages.day-three-page {
     bottom: -29em;
-    right: 10em;
     transform: rotateZ(7deg);
 }
 
 .anska .custom-wrapper .custom-slide.day-three-bis .pages.day-three-page-bis {
     top: -10em;
-    right: -8em;
     transform: rotateZ(-7deg);
 }
 
 .anska .custom-wrapper .custom-slide.day-four {
+    z-index:17;
     background-image: url('/img/day_four/background.png');
 }
 
@@ -323,18 +336,19 @@
 }
 
 .anska .custom-wrapper .custom-slide.day-five {
+    z-index:18;
     background-image: url('/img/day_five/background.png');
 }
 .anska .custom-wrapper .custom-slide.day-five .pages.day-five-page {
     bottom: -12em;
-    left: 12em;
     transform: rotateZ(7deg);
 }
 .anska .custom-wrapper .custom-slide.day-five .block-right p.pages-p {
     position: relative;
-    top: 14em;
+    top: 10em;
 }
 .anska .custom-wrapper .custom-slide.day-six {
+    z-index:16;
     background-image: url('/img/day_six/background.png');
 }
 
@@ -344,12 +358,12 @@
 }
 
 .anska .custom-wrapper .custom-slide.day-seven {
+    z-index:15;
     background-image: url('/img/day_seven/background.png');
 }
 
 .anska .custom-wrapper .custom-slide.day-seven .pages.day-seven-page {
     bottom: 24em;
-    right: -10em;
     transform: rotateZ(-7deg);
 }
 .anska .custom-wrapper .custom-slide.day-seven .block-right p.pages-p {
@@ -358,27 +372,36 @@
 }
 
 .anska .custom-wrapper .custom-slide.day-nine {
+    z-index:13;
     background-image: url('/img/day_nine/background.png');
 }
 
 .anska .custom-wrapper .custom-slide.day-nine-bis {
-    background-image: url('/img/day_nine/background_bis.png');
+    z-index:14;
+    background: url('/img/day_nine/background_bis.png');
 }
 
 .anska .custom-wrapper .custom-slide.day-eleven {
+    z-index:12;
     background-image: url('/img/day_eleven/background.png');
+    padding-right: 50em;
 }
 .anska .custom-wrapper .custom-slide.day-eleven .pages.day-eleven-page {
     bottom: -16em;
-    right: 13em;
     transform: rotateZ(10deg);
+    right: 5em;
 }
 .anska .custom-wrapper .custom-slide.day-eleven .block-left p.pages-p {
     position: relative;
     bottom: -10em;
 }
 .anska .custom-wrapper .custom-slide.day-fifteen{
+    z-index:11;
     background-image: url('/img/day_fifteen/background.png');
+    padding-left: 50em;
+    margin-left: -50em;
+    padding-right: 50em;
+
 }
 
 .anska .custom-wrapper .custom-slide.day-fifteen .pages.day-fifteen-page {
@@ -394,16 +417,22 @@
 
 .anska .custom-wrapper .custom-slide.day-twentyone{
     background-image: url('/img/day_twentyone/background.png');
+    margin-left: -100px;
+    z-index:10;
+    background-position: left center;
 }
 
 .anska .custom-wrapper .custom-slide.day-twentytwo {
+    z-index:9;
     background-image: url('/img/day_twentytwo/background.png');
 }
 .anska .custom-wrapper .custom-slide.day-twentytwo-bis{
     background-image: url('/img/day_twentytwo/background_bis.png');
+    z-index:8;
 }
 
 .anska .custom-wrapper .conclusion-slide {
+    z-index:7;
     display: flex;
     align-items: center;
 }
@@ -450,14 +479,5 @@
     }
     .anska .custom-wrapper .custom-slide .place-row.mt-15 {
         margin: 15em 0 -10em 0;
-    }
-    .anska .custom-wrapper .custom-slide.day-two .pages.day-two-page {
-        width: 800px;
-        position: relative;
-        left: -265px;
-        bottom:-14em;
-    }
-    .anska .custom-wrapper .custom-slide.day-two .block-left p.pages-p {
-        top: 14em;
     }
 }
