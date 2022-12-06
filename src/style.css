@@ -437,7 +437,10 @@
     margin-left: -15em;
     padding-right: 15em;
 }
-
+.anska .custom-wrapper .custom-slide.day-nine .block-left,
+ {
+    margin-bottom: 12em;
+}
 .anska .custom-wrapper .custom-slide.day-nine-bis {
     z-index:18;
     background: url('/img/day_nine/background_bis.png');
@@ -445,8 +448,11 @@
     margin-left: -35em;
     padding-right: 50em;
 }
-.anska .custom-wrapper .custom-slide.day-nine-bis .block-left,
 .anska .custom-wrapper .custom-slide.day-nine-bis .block-right {
+    margin-top: 24em;
+}
+
+.anska .custom-wrapper .custom-slide.day-nine-bis .block-left {
     margin-top: 12em;
 }
 
