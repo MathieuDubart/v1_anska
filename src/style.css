@@ -187,7 +187,7 @@
     display: flex;
     justify-content: center;
     top: -3em;
-    z-index:2;
+    z-index:24;
 }
 
 .anska .custom-wrapper .hero-slide .nav-arrow p {
@@ -297,6 +297,7 @@
     z-index:22;
     background-image: url('/img/day_one/background.png');
     padding-left: 25em;
+    padding-right: 25em;
 }
 
 .anska .custom-wrapper .custom-slide.day-one .row.title-row .day-row h2{
@@ -316,6 +317,9 @@
 .anska .custom-wrapper .custom-slide.day-two {
     z-index:21;
     background-image: url('/img/day_two/background.png');
+    padding-left: 25em;
+    padding-right: 25em;
+    margin-left: -10em;
 }
 
 .anska .custom-wrapper .custom-slide.day-two .pages.day-two-page {
@@ -332,11 +336,16 @@
 .anska .custom-wrapper .custom-slide.day-three {
     z-index:20;
     background-image: url('/img/day_three/background.png');
+    padding-left: 25em;
+    margin-left: -25em;
 }
 
 .anska .custom-wrapper .custom-slide.day-three-bis {
-    z-index:19;
+    z-index:18;
     background-image: url('/img/day_three/background_bis.png');
+    padding-left: 25em;
+    padding-right: 25em;
+    margin-left: -25em;
 }
 
 .day-three-page {
@@ -360,11 +369,15 @@
 .anska .custom-wrapper .custom-slide.day-three-bis .pages.day-three-page-bis {
     top: -10em;
     transform: rotateZ(-7deg);
+    right: 20em;
 }
 
 .anska .custom-wrapper .custom-slide.day-four {
-    z-index:17;
+    z-index:19;
     background-image: url('/img/day_four/background.png');
+    padding-left: 25em;
+    padding-right: 35em;
+    margin-left: -25em;
 }
 
 .anska .custom-wrapper .custom-slide.day-four .pages.day-four-page {
@@ -373,8 +386,10 @@
 }
 
 .anska .custom-wrapper .custom-slide.day-five {
-    z-index:18;
+    z-index:20;
     background-image: url('/img/day_five/background.png');
+    padding-left: 25em;
+    margin-left: -35em;
 }
 .anska .custom-wrapper .custom-slide.day-five .pages.day-five-page {
     bottom: -12em;
@@ -385,23 +400,30 @@
     top: 10em;
 }
 .anska .custom-wrapper .custom-slide.day-six {
-    z-index:16;
+    z-index:15;
     background-image: url('/img/day_six/background.png');
+    padding-left: 25em;
+    margin-left: -35em;
 }
 
 .anska .custom-wrapper .custom-slide.day-six .block-right p.pages-p {
     position: relative;
     top: 8em;
+    right: 5em;
 }
 
 .anska .custom-wrapper .custom-slide.day-seven {
     z-index:15;
     background-image: url('/img/day_seven/background.png');
+    padding-left: 25em;
+    padding-right: 10em;
+    margin-left: -22em;
 }
 
 .anska .custom-wrapper .custom-slide.day-seven .pages.day-seven-page {
     bottom: 24em;
     transform: rotateZ(-7deg);
+    right: 10em;
 }
 .anska .custom-wrapper .custom-slide.day-seven .block-right p.pages-p {
     position: relative;
@@ -409,19 +431,27 @@
 }
 
 .anska .custom-wrapper .custom-slide.day-nine {
-    z-index:13;
+    z-index:17;
     background-image: url('/img/day_nine/background.png');
+    padding-left: 25em;
+    margin-left: -15em;
+    padding-right: 15em;
 }
 
 .anska .custom-wrapper .custom-slide.day-nine-bis {
-    z-index:14;
+    z-index:18;
     background: url('/img/day_nine/background_bis.png');
+    padding-left: 25em;
+    margin-left: -35em;
+    padding-right: 50em;
 }
 
 .anska .custom-wrapper .custom-slide.day-eleven {
     z-index:12;
     background-image: url('/img/day_eleven/background.png');
     padding-right: 50em;
+    padding-left: 50em;
+    margin-left:-50em;
 }
 .anska .custom-wrapper .custom-slide.day-eleven .pages.day-eleven-page {
     bottom: -16em;
@@ -436,7 +466,7 @@
     z-index:11;
     background-image: url('/img/day_fifteen/background.png');
     padding-left: 50em;
-    margin-left: -50em;
+    margin-left: -55em;
     padding-right: 50em;
 
 }
@@ -454,7 +484,8 @@
 
 .anska .custom-wrapper .custom-slide.day-twentyone{
     background-image: url('/img/day_twentyone/background.png');
-    margin-left: -100px;
+    margin-left: -40em;
+    padding-left: 55em;
     z-index:10;
     background-position: left center;
 }
@@ -564,6 +595,9 @@
         padding-right: 3em;
         display: flex;
         flex-direction: column;
+    }
+    .anska .custom-wrapper .custom-slide .day-row h2 {
+        font-size:13em;
     }
 }
 
