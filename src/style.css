@@ -362,7 +362,7 @@
 }
 
 .anska .custom-wrapper .custom-slide.day-three-bis .pages.day-three-page {
-    bottom: -29em;
+    bottom: -25em;
     transform: rotateZ(7deg);
 }
 
@@ -402,8 +402,8 @@
 .anska .custom-wrapper .custom-slide.day-six {
     z-index:15;
     background-image: url('/img/day_six/background.png');
-    padding-left: 25em;
-    margin-left: -35em;
+    padding-left: 45em;
+    margin-left: -45em;
 }
 
 .anska .custom-wrapper .custom-slide.day-six .block-right p.pages-p {
@@ -421,7 +421,7 @@
 }
 
 .anska .custom-wrapper .custom-slide.day-seven .pages.day-seven-page {
-    bottom: 24em;
+    bottom: 20em;
     transform: rotateZ(-7deg);
     right: 10em;
 }
@@ -472,8 +472,7 @@
 }
 
 .anska .custom-wrapper .custom-slide.day-fifteen .pages.day-fifteen-page {
-    width: 120%;
-    top: -5em;
+    top: -10em;
     transform: rotateZ(-12deg);
 }
 
@@ -497,6 +496,10 @@
 .anska .custom-wrapper .custom-slide.day-twentytwo-bis{
     background-image: url('/img/day_twentytwo/background_bis.png');
     z-index:8;
+}
+.anska .custom-wrapper .custom-slide.day-twentytwo-bis .block-left,
+.anska .custom-wrapper .custom-slide.day-twentytwo-bis .block-right {
+margin-top: 12em;
 }
 
 .anska .custom-wrapper .gif-slide {
