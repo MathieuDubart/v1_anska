@@ -519,8 +519,12 @@
 .anska .custom-wrapper .custom-slide.day-twentytwo-bis .block-right {
     margin-top: 5em;
 }
-
-
+.anska .custom-wrapper .custom-slide.day-twentytwo-bis .row .block-right {
+    align-items: center;
+}
+.logo-link {
+    margin-top: 20em;
+}
 .anska .custom-wrapper .gif-slide {
     display: flex;
     align-items: center;
