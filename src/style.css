@@ -56,8 +56,8 @@
     background-color:#000;
 }
 .custom-navbar img {
-    width: 60px;
-    height: 60px;
+    height: 30px;
+    width: auto;
 }
 .custom-container{
     height:100vw;
@@ -124,6 +124,10 @@
     background-image: url('/img/hero/background.png');
     background-size: cover;
     background-position: center center;
+}
+.anska .hero-slide .hero-title h1 img{
+    height: 160px;
+    width: auto;
 }
 .custom-navbar {
     padding-top: 3em;
