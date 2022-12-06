@@ -4,6 +4,10 @@
     box-sizing:border-box;
 }
 
+.anska {
+    background-color:#000;
+}
+
 .anska p, .anska p.pages-p{
     scroll-behavior: smooth;
     font-family: 'Red Hat Display', sans-serif;
@@ -21,9 +25,12 @@
 
 .anska p,
 .anska .row {
-    font-size: 16px;
+    font-size: 1.1em;
     color: #fff;
-    font-weight: 500;
+    font-weight: 400;
+}
+.anska b {
+    font-weight: 700;
 }
 
 .hide-scrollbar::-webkit-scrollbar {
@@ -43,13 +50,15 @@
 
 .custom-wrapper {
     display:flex;
-    width:2100vw;
+    width:2400vw;
     transform:rotate(90deg) translateY(-100vh);
     transform-origin:top left;
     background-color:#000;
-
 }
-
+.custom-navbar img {
+    width: 60px;
+    height: 60px;
+}
 .custom-container{
     height:100vw;
     width:100vh;
@@ -58,6 +67,17 @@
     position:absolute;
     overflow-x:hidden;
     overflow-y:scroll;
+}
+
+.sources-container {
+    height: 100vh;
+}
+
+.sources-container .container-fluid {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .custom-layer {
@@ -69,7 +89,9 @@
     background-position: bottom;
     background-size: cover;
 }
-
+.anska b {
+    font-weight: 800;
+}
 .anska h1 {
     font-family: 'Kaisei Opti', serif;
 }
@@ -115,17 +137,15 @@
     background-position: bottom;
 }
 .anska .layer-1{
-    left:75vw;
-    z-index:1;
+    left:90vw;
     background-image: url('/img/hero/rock.png');
-    background-size: contain;
-    /*  -------------------------------  */
     position:absolute;
     top:0;
     height: 100vh;
     width: 100vw;
     background-position: bottom;
     background-size: cover;
+    z-index: 23;
 }
 
 .anska .layer-2{
@@ -149,7 +169,13 @@
 .anska .custom-wrapper .hero-slide .hero-sound-line {
     font-weight: 600;
 }
+.anska .custom-wrapper .hero-slide .hero-introduction {
+    max-height: 180px;
+}
 
+.anska .custom-wrapper .hero-slide .hero-sound-line {
+    margin-bottom: 3em;
+}
 
 .anska .custom-wrapper .conclusion-slide .row .nav-arrow,
 .anska .custom-wrapper .hero-slide .row .nav-arrow {
@@ -169,11 +195,13 @@
     top: -6.1em;
     left: 48px;
 }
-
+.anska .custom-wrapper .introduction {
+    width: 45%;
+    z-index: 26;
+}
 .anska .custom-wrapper .introduction .row {
     display: flex;
     align-items: center;
-    z-index:2;
 }
 
 
@@ -264,6 +292,11 @@
 .anska .custom-wrapper .custom-slide.day-one {
     z-index:22;
     background-image: url('/img/day_one/background.png');
+    padding-left: 25em;
+}
+
+.anska .custom-wrapper .custom-slide.day-one .row.title-row .day-row h2{
+    z-index: 30;
 }
 
 .anska .custom-wrapper .custom-slide.day-one .block-right p {
@@ -431,13 +464,27 @@
     z-index:8;
 }
 
+.anska .custom-wrapper .gif-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.anska .custom-wrapper .gif-slide .gif-content {
+    background-image: url('/img/autres/trajet_anska.gif');
+    min-height: 800px;
+    min-width: 900px;
+    width: 100%;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 .anska .custom-wrapper .conclusion-slide {
     z-index:7;
     display: flex;
     align-items: center;
 }
 
-.
 .anska .map-container {
     padding: 5em;
 }
@@ -450,10 +497,58 @@
     height: 10%;
     width: 100%;
 }
+.anska .map-container .range-row .range-col {
+    margin-top: 1.2em;
+}
+.anska .map-container .range-row .range-col .label {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.anska .map-container .label-row {
+    margin-top: 1em;
+    text-align: center;
+}
+
 .anska .temp-map {
     height: 100%;
     width: 100%;
 }
+
+.anska .anska-logo-container .logo-row .logo {
+    background-image:url('/img/autres/logo_anska.svg');
+    min-height: 700px;
+    min-width: 700px;
+    max-width: 100%;
+    max-height: 100%;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.anska .logos-container {
+    width: 100vw;
+    height: 100vh;
+}
+.anska .logos-container .logos-row {
+    height: 100%;
+}
+.anska .logos-container .logos-row .col-md-12 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.anska .logos-container .logos-row .col-md-12 a {
+    text-decoration: underline;
+}
+.anska .logos-container .logos-row .col-md-12 a:hover {
+    text-decoration: none;
+}
+
+/*------------- SOURCES -------------*/
+
+
 
 /*------------- RESPONSIVE -------------*/
 
@@ -475,9 +570,9 @@
         padding: 0 75px;
     }
     .anska .custom-wrapper .custom-slide .title-row h2 {
-        font-size:11em;
+        font-size:10em;
     }
     .anska .custom-wrapper .custom-slide .place-row.mt-15 {
-        margin: 15em 0 -10em 0;
+        margin: 10em 0 -6em 0;
     }
 }

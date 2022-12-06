@@ -3,15 +3,23 @@
   <component name="ChangeListManager">
     <list default="true" id="b889eaff-a33a-4622-b967-70dcd4141870" name="Changes" comment="css fixing and refactoring files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/pages/Anthrax.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/pages/Anthrax.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/pages/GEIC.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/pages/GEIC.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/pages/GES.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/pages/GES.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/pages/body.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/pages/body.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/pages/cercle.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/pages/cercle.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/pages/cratere.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/pages/cratere.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/pages/day_two.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/pages/faune_et_flore.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/pages/faune_et_flore.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/pages/stats_anthrax.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/pages/stats_anthrax.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/autres/Map_Trajet_Anska_final.gif" beforeDir="false" afterPath="$PROJECT_DIR$/img/autres/trajet_anska.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/day_eleven/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/day_eleven/background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/day_fifteen/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/day_fifteen/background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/day_five/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/day_five/background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/day_four/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/day_four/background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/day_nine/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/day_nine/background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/day_nine/background_bis.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/day_nine/background_bis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/day_one/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/day_one/background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/day_seven/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/day_seven/background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/day_six/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/day_six/background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/day_three/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/day_three/background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/day_three/background_bis.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/day_three/background_bis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/day_twentyone/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/day_twentyone/background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/day_twentytwo/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/day_twentytwo/background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/day_twentytwo/background_bis.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/day_twentytwo/background_bis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/day_two/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/day_two/background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/hero/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/hero/background.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
     </list>
@@ -19,6 +27,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,20 +50,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/mathieudubart/Desktop/Gobelins/B2/Projet dataviz/v1_anska&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "/Users/mathieudubart/Desktop/Gobelins/B2/Projet dataviz/v1_anska",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="C:\Users\Utilisateur\Desktop\v1_anska\img" />
     </key>
   </component>
@@ -67,6 +84,7 @@
       <workItem from="1669663467717" duration="1698000" />
       <workItem from="1669748011866" duration="7652000" />
       <workItem from="1670226562142" duration="13806000" />
+      <workItem from="1670312913779" duration="13769000" />
     </task>
     <task id="LOCAL-00001" summary="css fixing and refactoring files">
       <created>1669551336399</created>
