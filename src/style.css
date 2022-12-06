@@ -438,7 +438,7 @@
     padding-right: 15em;
 }
 .anska .custom-wrapper .custom-slide.day-nine .block-left p {
-    margin-bottom: 12em;
+    /*margin-bottom: 12em;*/
 }
 .anska .custom-wrapper .custom-slide.day-nine-bis {
     z-index:18;
@@ -626,7 +626,9 @@
         margin: 10em 0 -6em 0;
     }
     .anska .custom-wrapper .custom-slide.day-nine-bis {
-        padding-left: 5em;
-        padding-right: 50em;
+        padding-right: 20em;
+    }
+    .anska .custom-wrapper .custom-slide.day-nine-bis {
+        padding-right:30em;
     }
 }
