@@ -617,6 +617,13 @@
     .anska .custom-wrapper .custom-slide .day-row h2 {
         font-size:13em;
     }
+    .anska .map-container .temp-row {
+        height: 90%;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        margin-left: 10em;
+    }
 }
 
 @media (max-width: 1440px) {
