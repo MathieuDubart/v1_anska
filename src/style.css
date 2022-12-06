@@ -542,6 +542,8 @@
 .anska .map-container .temp-row {
     height: 90%;
     width: 80%;
+    display: flex;
+    justify-content: center;
 }
 .anska .map-container .range-row {
     height: 10%;
