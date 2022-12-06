@@ -348,9 +348,6 @@
     margin-left: -25em;
 }
 
-.day-three-page {
-    bottom: -38em;
-}
 .anska .custom-wrapper .custom-slide.day-three-bis .block-left p.pages-p {
     position: relative;
     top: 25em;
@@ -362,7 +359,7 @@
 }
 
 .anska .custom-wrapper .custom-slide.day-three-bis .pages.day-three-page {
-    bottom: -25em;
+    bottom: -28em;
     transform: rotateZ(7deg);
 }
 
