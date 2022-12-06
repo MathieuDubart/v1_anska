@@ -524,13 +524,9 @@
     justify-content: center;
 }
 .anska .custom-wrapper .gif-slide .gif-content {
-    background-image: url('/img/autres/trajet_anska.gif');
     min-height: 800px;
     min-width: 900px;
     width: 100%;
-    background-position: center center;
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 
 .anska .custom-wrapper .conclusion-slide {
