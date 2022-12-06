@@ -340,6 +340,10 @@
     margin-left: -25em;
 }
 
+.anska .custom-wrapper .custom-slide.day-three .mtop {
+    margin-top: -10em;
+}
+
 .anska .custom-wrapper .custom-slide.day-three-bis {
     z-index:18;
     background-image: url('/img/day_three/background_bis.png');
