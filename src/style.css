@@ -50,7 +50,7 @@
 
 .custom-wrapper {
     display:flex;
-    width:2400vw;
+    width:2600vw;
     transform:rotate(90deg) translateY(-100vh);
     transform-origin:top left;
     background-color:#000;
