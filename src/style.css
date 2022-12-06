@@ -549,6 +549,15 @@
     padding: 2em 5em 10em 5em;
 }
 
+.legende-carte {
+    list-style: none;
+}
+.legende .icon-legende {
+    margin-right: 8px;
+    height: 32px;
+    width: 32px;
+}
+
 .anska .map-container .temp-row {
     height: 90%;
     width: 80%;
