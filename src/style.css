@@ -534,6 +534,9 @@
     display: flex;
     align-items: center;
 }
+.anska .custom-wrapper .conclusion-slide .conclusion-content {
+    text-align: center;
+}
 
 .anska .map-container {
     padding: 2em 5em 10em 5em;
