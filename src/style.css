@@ -544,6 +544,7 @@
     width: 80%;
     display: flex;
     justify-content: center;
+    margin-left: 8em;
 }
 .anska .map-container .range-row {
     height: 10%;
