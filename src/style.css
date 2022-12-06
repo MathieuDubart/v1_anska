@@ -445,6 +445,10 @@
     margin-left: -35em;
     padding-right: 50em;
 }
+.anska .custom-wrapper .custom-slide.day-nine-bis .block-left,
+.anska .custom-wrapper .custom-slide.day-nine-bis .block-right {
+    margin-top: 12em;
+}
 
 .anska .custom-wrapper .custom-slide.day-eleven {
     z-index:12;
@@ -499,7 +503,7 @@
 }
 .anska .custom-wrapper .custom-slide.day-twentytwo-bis .block-left,
 .anska .custom-wrapper .custom-slide.day-twentytwo-bis .block-right {
-margin-top: 12em;
+    margin-top: 12em;
 }
 
 .anska .custom-wrapper .gif-slide {
