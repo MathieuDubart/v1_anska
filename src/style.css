@@ -599,7 +599,9 @@
     justify-content: space-evenly;
     align-items: center;
 }
-
+.logo-conclusion {
+    width: 60px;
+}
 /*------------- SOURCES -------------*/
 
 
