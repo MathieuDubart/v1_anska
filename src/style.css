@@ -588,6 +588,7 @@
 }
 .anska .logos-container .logos-row {
     height: 100%;
+    width: 100vw;
 }
 .anska .logos-container .logos-row .col-md-12 {
     display: flex;
