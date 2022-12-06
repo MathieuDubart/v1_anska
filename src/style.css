@@ -499,14 +499,20 @@
     z-index:9;
     background-image: url('/img/day_twentytwo/background.png');
 }
+.anska .custom-wrapper .custom-slide.day-twentytwo .block-left {
+    margin-bottom: 4em;
+}
 .anska .custom-wrapper .custom-slide.day-twentytwo-bis{
     background-image: url('/img/day_twentytwo/background_bis.png');
     z-index:8;
 }
-.anska .custom-wrapper .custom-slide.day-twentytwo-bis .block-left,
-.anska .custom-wrapper .custom-slide.day-twentytwo-bis .block-right {
+.anska .custom-wrapper .custom-slide.day-twentytwo-bis .block-left {
     margin-top: 12em;
 }
+.anska .custom-wrapper .custom-slide.day-twentytwo-bis .block-right {
+    margin-top: 5em;
+}
+
 
 .anska .custom-wrapper .gif-slide {
     display: flex;
