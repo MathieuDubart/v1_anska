@@ -551,6 +551,7 @@
 
 .legende-carte {
     list-style: none;
+    margin-top: 1em;
 }
 .legende .icon-legende {
     margin-right: 8px;
