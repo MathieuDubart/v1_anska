@@ -642,6 +642,12 @@
     }
 }
 
+@media (max-width: 1728px) {
+    .anska .custom-wrapper .custom-slide .title-row h2 {
+        font-size:8em;
+    }
+}
+
 @media (max-width: 1440px) {
 
     .anska .custom-wrapper .custom-slide .block-right,
