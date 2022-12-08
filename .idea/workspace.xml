@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b889eaff-a33a-4622-b967-70dcd4141870" name="Changes" comment="css fixing and refactoring files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +69,8 @@
       <workItem from="1670312913779" duration="14314000" />
       <workItem from="1670350954498" duration="1095000" />
       <workItem from="1670352524421" duration="15506000" />
-      <workItem from="1670438447531" duration="2205000" />
+      <workItem from="1670438447531" duration="2569000" />
+      <workItem from="1670526122558" duration="1241000" />
     </task>
     <task id="LOCAL-00001" summary="css fixing and refactoring files">
       <created>1669551336399</created>
