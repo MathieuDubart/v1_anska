@@ -169,19 +169,11 @@
     background-position: bottom;
 }
 
-.anska .custom-wrapper .hero-slide .hero-sound-line i {
-    margin-right: 8px;
-}
-.anska .hero-introduction p,
-.anska .custom-wrapper .hero-slide .hero-sound-line {
+.anska .hero-introduction p{
     font-weight: 600;
 }
 .anska .custom-wrapper .hero-slide .hero-introduction {
     max-height: 180px;
-}
-
-.anska .custom-wrapper .hero-slide .hero-sound-line {
-    margin-bottom: 3em;
 }
 
 .anska .custom-wrapper .conclusion-slide .row .nav-arrow,

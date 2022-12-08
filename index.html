@@ -39,9 +39,6 @@
                         <p> Commence l'histoire ! </p>
                     </a>
                 </div>
-                <div class="col-md-12 hero-sound-line">
-                    <i class="fa-solid fa-volume-high"></i> Pour une meilleure expérience, il est possible d’activer le son
-                </div>
             </div>
             <div class="layer-2"></div>
             <div class="layer-1"></div>
@@ -481,10 +478,8 @@
                 </div>
                 <div class="col-md-3">
                     <ul class="legende-carte">
-                        <li><img src="img/autres/rouge.png" class="icon-legende"> dégel fort </li>
-                        <li><img src="img/autres/orange.png" class="icon-legende"> dégel moyen </li>
-                        <li><img src="img/autres/jaune.png" class="icon-legende"> dégel faible </li>
-                        <li><img src="img/autres/bleu.png" class="icon-legende"> aucun dégel </li>
+                        <li><img src="img/autres/rouge.png" class="icon-legende"> Permafrost dégelé</li>
+                        <li><img src="img/autres/bleu.png" class="icon-legende"> Permafrost gelé </li>
                     </ul>
                 </div>
             </div>
@@ -545,14 +540,12 @@
                         'step',
                         ["at", 0, ['get', 'temp']],
                         '#80D1FF',
-                        -10,
+                       -20,
                         '#80D1FF',
                         0,
-                        '#FFD43C',
-                        5,
-                        '#EC8525',
-                        10,
-                        '#F60C0C'
+                        '#F60C0C',
+                        20,
+                        '#F60C0C',
                     ]
                 }
             });
@@ -592,14 +585,12 @@
                             'step',
                             ["at", 0, ['get', 'temp']],
                             '#80D1FF',
-                            -10,
+                            -20,
                             '#80D1FF',
                             0,
-                            '#FFD43C',
-                            5,
-                            '#EC8525',
-                            10,
-                            '#F60C0C'
+                            '#F60C0C',
+                            20,
+                            '#F60C0C',
                         ]
                     }
                 });
